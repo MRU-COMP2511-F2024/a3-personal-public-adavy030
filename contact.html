@@ -38,52 +38,21 @@
                 </script>
             </header>
             
-            <h2> Contact Me</h2>
             <form id="contactform" method="post" action="mailto:adavy030@mtroyal.ca">
                 <fieldset>
-                        <legend>Name <tagline>(required)</tagline> </legend>
+                        <legend>Contact:</legend>
                         <dl>
-                            <dt><label>Salutation</label></dt>
-                                <dd>
-                                    <select name="salutation "> 
-                                        <option>Select</option>
-                                        <option>Mrs.</option>
-                                        <option>Ms.</option>
-                                        <option>Mr.</option>
-                                    </select>
-                                </dd>
-
-                            <dt><label>First & Last Name</label></dt>
+                            <dt><label>First & Last Name <tagline>(required)</tagline> </label></dt>
                                 <dd><input name="name" type="text" max="30" placeholder="First and last name" required autofocus></dd>
                         </dl>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Contact Information <tagline>(required)</tagline></legend>
-                    <dl>
-                        <dt><label>Select Method for Response:</label></dt>
-                            <dd>
-                                <label for="email"><input type="radio" name="contact method" id="email" value="email">Email</label>
-                                <label for="phone"><input type="radio" name="contact method" id="phone" value="phone">Phone</label>
-                            </dd>
- 
-                        </dt><label>Email Address <tagline>(required)</tagline></label></dt>
-                            <dd><input name="email" type="email" pattern=".+@mtroyal\.ca" placeholder="abcdefg@mtroyal.ca" required></dd>
-                        
-                        <dt><label>Phone <tagline>(required)</tagline></label></dt>
-                            <dd><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></dd>
-                    </dl>
-                </fieldset>
-
-                <fieldset>
-                        <legend>Additional Details <tagline>(required)</tagline></legend>
                         <dl>
-                            <dt><label>Subject</label></dt>    
-                                <dd>
-                                    <input type="text" name="subject" max="30" placeholder="Subject line" required>
-                                </dd>
-                            
-                            <dt><label>Body</label></dt>
+                            </dt><label>Email Address <tagline>(required)</tagline></label></dt>
+                                <dd><input name="email" type="email" pattern=".+@mtroyal\.ca" placeholder="abcdefg@mtroyal.ca" required></dd>
+                            <br>
+                            <dt><label>Phone <tagline>(required)</tagline></label></dt>
+                                <dd><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></dd>
+                            <br>
+                                <dt><label>Message <tagline>(required)</tagline></label></dt>
                                 <dd>
                                     <textarea name="message" cols="40" placeholder="Write any additional concerns or questions" required></textarea>
                                 </dd>
