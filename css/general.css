@@ -158,6 +158,12 @@ a:hover {
         margin-top: -12px;
         padding: 2px;
     }
+
+    .email {
+        height: 45px;
+        margin-top: -18px;
+        float: left;
+    }
 }
 
 
@@ -238,6 +244,12 @@ a:hover {
         float: left;
         padding: 5px;
         margin-top: -20px;
+    }
+
+    .email {
+        height: 65px;
+        margin-top: -28px;
+        float: left;
     }
 
 }

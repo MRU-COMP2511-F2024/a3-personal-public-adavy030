@@ -73,6 +73,12 @@ p ul {
         font-weight: bold !important;
     }
     
+    .email {
+        height: 45px;
+        margin-top: -3px;
+        margin-bottom: 5px;
+        float: left;
+    }
 
 }
 
@@ -127,6 +133,13 @@ p ul {
 
     article {
         margin: 20px;
+    }
+
+    .email {
+        height: 65px;
+        margin-top: -12px;
+        margin-bottom: 5px;
+        float: left;
     }
 }
 
