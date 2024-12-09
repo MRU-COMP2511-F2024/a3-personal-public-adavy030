@@ -49,6 +49,7 @@ input[type=submit], input[type=reset] {
     letter-spacing: 1px;
     padding: 10px;
     margin: 10px;
+
 }
 
 input[type="submit"]:hover,

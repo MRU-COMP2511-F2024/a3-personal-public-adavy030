@@ -165,7 +165,8 @@ a:hover {
     .heading img *{
         padding: 20px;
         margin: -60px;
-        height: 130px;}
+        height: 130px;
+    }
     .heading *{
         margin: 20px;
         font-size: 8pt;
@@ -241,8 +242,10 @@ a:hover {
 
 @media (min-width: 790px) {
     .heading img {
-        padding: 20px;
-        margin: -60px;
+        padding: 5px;
+        margin-right: -50px;
+        margin-top: -45px;
+        margin-left: -35px;
         height: 150px;
     }
 
