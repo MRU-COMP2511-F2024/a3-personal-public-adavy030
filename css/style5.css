@@ -1,0 +1,174 @@
+
+fieldset{
+    border: none;
+    font-weight: bolder;
+}
+
+form{
+    background-color: #F3F3F3;
+    font-weight: lighter;
+    
+}
+
+::placeholder{
+    color:#FFB9CB;
+}
+
+select {
+    color: #515151;
+}
+
+label {
+    color: #515151;
+    display:contents;
+}
+
+legend {
+    font-weight: bolder; 
+    margin-bottom: 2px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+    width: 95%; 
+    padding: 12px; 
+    margin-top: 5px; 
+    margin-bottom: 15px;
+    border: 1px solid;
+    border-color: #ccc;
+    
+}
+
+input[type=submit], input[type=reset] {
+    background-color: transparent;
+    border-width: 2px;
+    border-color: #FFB9CB;
+    border-style: solid;
+    color: #FFB9CB;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color:#FFB9CB;
+    color:#FFFFFF;
+}
+
+input[type] {
+    margin: 5px;
+}
+
+@media (max-width: 590px) {
+
+    form {
+        margin-left: 15px;
+        padding: 15px;
+        width: 80%;
+    }
+    h2 {
+        font-size: 8pt;
+        padding: 5px;
+        margin-top: -20px;
+        margin-left: 10px;
+    }
+    label {
+        font-size: 8pt;
+        line-height: 1.5px;
+    }
+
+    legend {
+        font-size: 8pt;
+    }
+    
+    fieldset{
+        font-size: 8pt;
+    }
+
+    fieldset tagline {
+        font-size: 6pt;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+        font-size: 8pt; /* Font size for inputs */
+    }
+    
+    input[type=submit], input[type=reset] {
+        font-size: 5pt;
+    }
+}
+
+@media (min-width: 590px) and (max-width: 790px) {
+    form {
+        margin-left: 25px;
+        padding: 15px;
+        width: 80%;
+    }
+    h2 {
+        font-size: 10pt;
+        margin-left: 30px;
+    }
+    label {
+        font-size: 8pt;
+        line-height: 1.5px;
+    }
+
+    legend {
+        font-size: 10pt;
+    }
+    
+    fieldset{
+        font-size: 10pt;
+    }
+
+    fieldset tagline {
+        font-size: 8pt;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+        font-size: 10pt; /* Font size for inputs */
+    }
+    
+    input[type=submit], input[type=reset] {
+        font-size: 10pt;
+    }
+}
+
+@media (min-width: 790px) {
+    form{
+        margin: 30px;
+        max-width: 2000px;
+        padding: 20px;
+    }
+
+    label {
+        font-size: 12pt;
+        line-height: 1.5px;
+    }
+
+    legend {
+        font-size: 14pt;
+    }
+    
+    fieldset{
+        font-size: 14pt;
+    }
+
+    fieldset legend tagline {
+        font-size: 10pt;
+    }
+
+    input[type="text"], input[type="email"], input[type="tel"], textarea, select {
+        font-size: 12pt; /* Font size for inputs */
+    }
+    
+    input[type=submit], input[type=reset] {
+        font-size: 12pt;
+    }
+
+    h2{
+        padding: 5px;
+        margin:30px;
+    }
+}

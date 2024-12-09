@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>Contact Me</title>
+            <meta name="description" content="contact">
+            <meta name="author" content="Anastacia Davydov">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="css/general.css" type="text/css">
+            <link rel="stylesheet" href="css/style5.css" type="text/css">
+        </head>
+    
+        <body>
+            <header>
+                <div class="heading">
+                    <img src="images/Logo.png" alt="Logo" title="Logo" >
+                    <a href="index.html"><h1>Anastacia Davydov <tagline>Mount Royal University Student</tagline></h1></a>
+                </div>
+
+                <div class="container" onclick="myFunction(this)">
+                    <div class=bar1></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>                        
+                        <li><a id="active" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <script>
+                    function myFunction(x) {
+                      x.classList.toggle("change");
+                    }
+                </script>
+            </header>
+            
+            <h2> Contact Me</h2>
+            <form id="contactform" method="post" action="mailto:adavy030@mtroyal.ca">
+                <fieldset>
+                        <legend>Name <tagline>(required)</tagline> </legend>
+                        <dl>
+                            <dt><label>Salutation</label></dt>
+                                <dd>
+                                    <select name="salutation "> 
+                                        <option>Select</option>
+                                        <option>Mrs.</option>
+                                        <option>Ms.</option>
+                                        <option>Mr.</option>
+                                    </select>
+                                </dd>
+
+                            <dt><label>First & Last Name</label></dt>
+                                <dd><input name="name" type="text" max="30" placeholder="First and last name" required autofocus></dd>
+                        </dl>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Contact Information <tagline>(required)</tagline></legend>
+                    <dl>
+                        <dt><label>Select Method for Response:</label></dt>
+                            <dd>
+                                <label for="email"><input type="radio" name="contact method" id="email" value="email">Email</label>
+                                <label for="phone"><input type="radio" name="contact method" id="phone" value="phone">Phone</label>
+                            </dd>
+ 
+                        </dt><label>Email Address <tagline>(required)</tagline></label></dt>
+                            <dd><input name="email" type="email" pattern=".+@mtroyal\.ca" placeholder="abcdefg@mtroyal.ca" required></dd>
+                        
+                        <dt><label>Phone <tagline>(required)</tagline></label></dt>
+                            <dd><input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required></dd>
+                    </dl>
+                </fieldset>
+
+                <fieldset>
+                        <legend>Additional Details <tagline>(required)</tagline></legend>
+                        <dl>
+                            <dt><label>Subject</label></dt>    
+                                <dd>
+                                    <input type="text" name="subject" max="30" placeholder="Subject line" required>
+                                </dd>
+                            
+                            <dt><label>Body</label></dt>
+                                <dd>
+                                    <textarea name="message" cols="40" placeholder="Write any additional concerns or questions" required></textarea>
+                                </dd>
+                        
+                            <dt><label>If you would like to book a meeting, please select one:</label></dt>
+                                <dd>
+                                    <label for="video-call"><input type="checkbox" id="video-call" name="meeting-type" value="video-call">Video</label>
+                                    <label for="phone-call"><input type="checkbox" id="phone-call" name="meeting-type" value="phone-call">Phone</label>
+                                </dd>
+                        </dl>
+                </fieldset>
+
+                <input type="submit" value="SUBMIT"/>
+                <input type="reset" value="RESET"/>
+            </form>
+
+            <footer>
+                <br>
+                <hr/>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a id="active" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                </br>
+                &copy; Anastacia Davydov, 2024.
+            </footer>
+        </body>
+    </head>
+</html>

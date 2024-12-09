@@ -1,0 +1,186 @@
+
+
+h3 {
+    padding-right: 40%;
+}
+
+.p1 {
+    background-color: #F3F3F3;
+}
+
+#post, #story {
+    padding: 10px;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+
+@media (max-width: 590px){
+    body{
+        width: 80%;
+    }
+
+    article {
+        margin-top: -30px;
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    article h2 a {
+        font-size: 7pt;
+        line-height: 1px;
+    }
+
+    h2{
+        font-size: 8pt;
+        line-height: 15px;
+        font-weight: bold;
+    }
+    
+    h3 {
+        font-size: 6pt;
+        width: 85%;
+    }
+
+
+    section {
+        font-size: 7pt;
+        width: 85%;
+    }
+
+    .p1 {
+        padding: 8px;
+    }
+
+    .p1::first-letter {
+        font-size: 10pt;
+        font-weight: bold;
+    }
+    
+    p ul {
+        line-height: 15px;
+    }
+    
+    img[title="Leela Jacobs Strategy"]{
+        display: none;
+    }
+
+    img[alt="instagram sample"] {
+        height: 200px;
+        padding: 25px;
+    }
+
+    #post, #story {
+        float: left;
+    }
+}
+
+@media (min-width: 590px) and (max-width: 790px) {
+
+    article {
+        margin: 10px;
+        width: 100%;
+    }
+    
+    article h2 a {
+        font-size: 10pt;
+        line-height: 40px;
+    }
+
+    h2{
+        font-size: 10pt;
+        line-height: 15px;
+    }
+    
+    h3 {
+        font-size: 8pt;
+        width: 100%;
+    }
+
+
+    section {
+        font-size: 8pt;
+        width: 85%;
+    }
+
+    p {
+        line-height: 18px;
+        padding: 5px;
+    }
+
+    .p1 {
+        padding: 8px;
+    }
+
+    .p1::first-letter {
+        font-size: 12pt;
+        font-weight: bold;
+    }
+    
+    p ul {
+        line-height: 20px;
+        width: 75%;
+        padding: -4px;
+    }
+    
+    article {
+        margin: 20px;
+    }
+
+    img[title="Leela Jacobs Strategy"]{
+        height:150px;
+        margin-bottom: -20px;
+    }
+
+    img[alt="instagram sample"] {
+        height: 250px;
+        padding: 25px;
+    }
+
+    #post, #story {
+        padding: 10px;
+    }
+}
+
+@media (min-width: 790px) {
+    img[title="Leela Jacobs Strategy"]{
+        height:250px;
+        float: right;
+        padding: 5px;
+        margin-top: -15px;
+    }
+
+    img[alt="instagram sample"] {
+        height: 300px;
+    }
+
+    #story {
+        position: relative;
+    }
+
+    p ul {
+        line-height: 30px;
+    }
+    
+    .p1 {
+        padding: 10px;
+    }
+
+    .p1::first-letter {
+        font-size: 16pt;
+        font-weight: bold;
+    }
+
+    article{
+        margin: 20px;
+        margin-right: 30px;
+        margin-left: 50px;
+        padding: 10px;
+        float: left;
+        overflow: auto;
+    }
+
+    h2 {
+        line-height: 28px;
+    }
+}
