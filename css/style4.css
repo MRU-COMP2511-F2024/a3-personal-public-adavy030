@@ -47,18 +47,6 @@ p ul {
         padding: 8px;
     }
 
-    p ul {
-        padding: 25px;
-        margin-top: -30px;
-        margin-bottom: -30px;
-        width: 70%;
-    }
-
-    p li {
-        line-height: 15px;
-        font-size: 7pt;
-    }
-
     img[alt="scaling plan"] {
         display: none;
     }
