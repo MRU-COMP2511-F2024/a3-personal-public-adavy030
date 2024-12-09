@@ -5,6 +5,12 @@ img[alt="Sample"] {
     display: block;
 }
 
+section {
+    padding: 15px;
+    font-size: 8pt;
+    
+}
+
 tr:nth-child(even) {
     background-color: #F5F5F5; 
 }
@@ -30,7 +36,14 @@ figure {
         padding: 5px;
         grid-template-columns: repeat(1, 1fr);
     }
-    
+    section {
+        padding: 15px;
+        font-size: 6pt;
+        width: 65%;
+        margin-left: -15px;
+        margin-top: -35px;
+    }
+
     img[alt="Sample"] {
         height: 250px;
     }
@@ -60,5 +73,7 @@ figure {
     img[alt="Sample"] {
         height: 400px;
     }
+
+    
 
 }

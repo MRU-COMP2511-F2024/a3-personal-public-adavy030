@@ -173,4 +173,10 @@ p ul {
         margin-left: 50px;
         padding: 10px;
     }
+
+    .email {
+        height: 65px;
+        margin-top: -11px;
+        float: left;
+    }
 }

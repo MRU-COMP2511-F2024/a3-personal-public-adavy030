@@ -152,7 +152,7 @@ a:hover {
         font-size: 12pt;
         font-weight: bold;
     }
-    footer img {
+    .linkedin{
         height: 25px;
         float: left;
         margin-top: -12px;
@@ -162,12 +162,14 @@ a:hover {
 
 
 @media (min-width: 590px) and (max-width: 790px)  {
-    .heading img *{
+    .heading img {
         padding: 20px;
-        margin: -60px;
-        height: 130px;
+        margin-right: -50px;
+        margin-top: -45px;
+        margin-left: -65px;
+        height: 100px;
     }
-    .heading *{
+    .heading {
         margin: 20px;
         font-size: 8pt;
         padding: 5px;
@@ -231,7 +233,7 @@ a:hover {
         font-weight: bold;
     }
 
-    footer img {
+    .linkedin {
         height: 35px;
         float: left;
         padding: 5px;
@@ -265,9 +267,15 @@ a:hover {
         font-weight: bold;
     }
 
-    footer img {
+    .linkedin {
         height: 45px;
         position: relative;
         margin-top: -20px;
+    }
+
+    .email {
+        height: 65px;
+        margin-top: -28px;
+        float: left;
     }
 }
