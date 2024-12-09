@@ -12,6 +12,7 @@ p ul {
     line-height: 30px;
 }
 
+
 #overview {
     color: #515151;
     text-decoration: none;
@@ -62,7 +63,7 @@ p ul {
         display: none;
     }
     .carousel img{
-        height:200px;
+        height:300px;
         object-fit: cover;
         padding: 5px;
     }
@@ -82,14 +83,11 @@ p ul {
     .mrucover{
        display: none;
     }
-    
-    #imagesmru {
-        margin-top: -50px;
-    }
 
-    #imagesmru img {
-        height: 250px;
+    h2 * {
+        font-weight: bold !important;
     }
+    
 
 }
 
@@ -138,10 +136,6 @@ p ul {
         float: left;
     }
 
-    #imagesmru img {
-        height: 400px;
-    }
-
     .mrucover {
         height: 150px;
     }
@@ -180,10 +174,6 @@ p ul {
 
     p {
         padding: 10px;
-    }
-
-    #imagesmru img {
-        height: 600px;
     }
 
     .mrucover {
