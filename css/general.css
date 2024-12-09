@@ -8,6 +8,11 @@ body{
     text-align: left;
 }
 
+body * {
+    font-family: Geneva, Tahoma, Verdana, sans-serif;
+}
+
+
 h3 {
     color: #515151 ;
     font-weight: lighter ;
@@ -157,16 +162,16 @@ a:hover {
 
 
 @media (min-width: 590px) and (max-width: 790px)  {
-    .heading img {
+    .heading img *{
         padding: 20px;
         margin: -60px;
         height: 130px;}
-    .heading {
+    .heading *{
         margin: 20px;
         font-size: 8pt;
         padding: 5px;
     }
-    .heading tagline {
+    .heading tagline *{
         font-size: 7pt;
     }
 
