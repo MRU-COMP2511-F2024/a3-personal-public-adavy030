@@ -147,6 +147,12 @@ a:hover {
         font-size: 12pt;
         font-weight: bold;
     }
+    footer img {
+        height: 25px;
+        float: left;
+        margin-top: -12px;
+        padding: 2px;
+    }
 }
 
 
@@ -219,6 +225,13 @@ a:hover {
         font-weight: bold;
     }
 
+    footer img {
+        height: 35px;
+        float: left;
+        padding: 5px;
+        margin-top: -20px;
+    }
+
 }
 
 @media (min-width: 790px) {
@@ -242,5 +255,11 @@ a:hover {
     p::first-letter {
         font-size: 18pt;
         font-weight: bold;
+    }
+
+    footer img {
+        height: 45px;
+        position: relative;
+        margin-top: -20px;
     }
 }
