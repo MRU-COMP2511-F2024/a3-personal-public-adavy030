@@ -2,8 +2,6 @@ body * {
     box-sizing: content-box !important;
 }
 
-
-
 .paragraph {
     background-color: #F3F3F3;
 }
@@ -53,6 +51,11 @@ body * {
         height: 250px;
         object-fit: cover;
     }
+
+    .paragraph::first-letter {
+        font-weight: bold;
+        font-size: 10pt;
+    }
 }
 
 @media (min-width: 590px) and (max-width: 790px) {
@@ -60,9 +63,13 @@ body * {
         margin: 20px;
         padding: 15px;
     }
+    .paragraph::first-letter {
+        font-weight: bold;
+        font-size: 16pt;
+    }
 
     .paragraph ul {
-        margin: 30px;
+        margin: 10px;
     }
     
     .carousel {
@@ -91,8 +98,12 @@ body * {
         padding: 15px;
     }
 
+    .paragraph::first-letter {
+        font-size: 16pt;
+        font-weight: bold;
+    }
     .paragraph ul {
-        margin: 30px;
+        margin: 10px;
     }
     
     .carousel {
