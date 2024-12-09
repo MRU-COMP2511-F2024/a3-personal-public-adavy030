@@ -1,4 +1,7 @@
 
+body * {
+    box-sizing: content-box !important;
+}
 
 
 #description{
@@ -68,6 +71,14 @@ p ul {
         align-items: center;
     }
 
+    .heading *{
+        font-size: 10pt;
+    }
+
+    .container * {
+        margin-left: 20px;
+    }
+    
     .mrucover{
        display: none;
     }
