@@ -114,4 +114,10 @@ body * {
         height: 550px;
         object-fit: cover;
     }
+
+    .email {
+        height: 65px;
+        margin-top: -11px;
+        float: left;
+    }
 }
